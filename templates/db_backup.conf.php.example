@@ -1,0 +1,20 @@
+<?php
+
+$config = [
+    [
+        'backup' =>   '',
+        'host' =>     '',
+        'database' => '',
+        'user' =>     '',
+        'password' => '',
+    ],
+    /* more...
+    [
+        'backup' =>   '',
+        'host' =>     '',
+        'database' => '',
+        'user' =>     '',
+        'password' => '',
+    ],
+    */
+];
