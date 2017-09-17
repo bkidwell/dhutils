@@ -1,0 +1,6 @@
+#!/bin/bash
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+FILES_DIR=$(readlink -f "$SCRIPT_DIR/rdiff-backup.files")
+LD_LIBRARY_PATH=$FILES_DIR
+export LD_LIBRARY_PATH
+exec "$FILES_DIR/rdiff-backup" $*
