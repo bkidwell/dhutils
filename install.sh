@@ -2,6 +2,7 @@ cd ~/dhutils
 
 git config core.fileMode false
 chmod +x db_backup.php
+chmod +x install.sh
 chmod +x rdiff-backup
 chmod +x rdiff-backup.files/rdiff-backup
 chmod +x rdiff-backup.files/rdiff-backup-statistics
