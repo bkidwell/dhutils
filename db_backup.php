@@ -1,4 +1,4 @@
-#!/usr/bin/env php-7.1
+#!/usr/bin/env php
 <?php
 
 include 'conf/db_backup.conf.php';
@@ -9,7 +9,7 @@ if (!file_exists("$HOME/db_backup")) {
 }
 
 foreach($config as $c) {
-    $bakfile = "$HOME/db_backup/${c['backup']}.sql";
+    $bakfile = "$HOME/db_backup/${c['backup']}";
     $host = $c['host'];
     $database = $c['database'];
     $user = $c['user'];
