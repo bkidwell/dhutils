@@ -8,7 +8,7 @@ if (!file_exists("$HOME/db_backup")) {
     mkdir("$HOME/db_backup", 0770, true);
 }
 
-foreach($conf as $c) {
+foreach($config as $c) {
     $bakfile = "$HOME/db_backup/${c['backup']}.sql";
     $host = $c['host'];
     $database = $c['database'];
