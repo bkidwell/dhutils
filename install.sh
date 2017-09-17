@@ -4,7 +4,7 @@ git config core.fileMode false
 chmod +x db_backup.php
 chmod +x rdiff-backup
 chmod +x rdiff-backup.files/rdiff-backup
-chmod +x rdiff-backup.files/rdiff-backup.statistics
+chmod +x rdiff-backup.files/rdiff-backup-statistics
 
 mkdir -p conf
 chmod 770 conf
